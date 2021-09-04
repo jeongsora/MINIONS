@@ -4,7 +4,7 @@ $(function(){
 	var intervalID=null;
 	
 	//메인 슬라이드
-	$(window).load(function(){
+	$(window).on('load', function(){	
 		intervalID=setInterval(function(){
 			var $slides=$("#main_1>.slides>.slides_container>li");
 			var $first_slides=$slides.eq(0);
