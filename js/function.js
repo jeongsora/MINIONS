@@ -189,7 +189,7 @@ $(function(){
 		pageAni(arrTopVal[nowIdx]-80);
 	});
     
-    $(window).load(function(){
+    $(window).on('load', function(){
 		$("html,body").stop().animate({
 			"scrollTop":0
 		});
